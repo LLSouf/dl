@@ -1,4 +1,4 @@
-# YouTube Media Downloader GUI Script 🎬
+# Media Downloader GUI Script 🎬
 
 A Bash script with YAD GUI for downloading YouTube videos/audio with format selection, quality options, and clip cutting features. 🖥️🔧
 
