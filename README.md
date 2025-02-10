@@ -16,3 +16,22 @@ A Bash script with YAD GUI for downloading YouTube videos/audio with format sele
 ## Prerequisites 📦
 ```bash
 sudo apt install yad yt-dlp ffmpeg xclip # For Debian/Ubuntu
+```
+## Installation ⚙️
+```bash
+git clone https://github.com/LLSouf/dl
+cd dl
+chmod +x dl
+```
+## Usage 🚀
+```bash
+./dl [URL]  
+```
+CLI Optional : if you bind a keyboard shortcut to the script, clipboarded URL is processed
+
+## Troubleshooting 🚨
+Missing Cookies: Ensure Chrome is installed
+
+Cut Errors: Verify timecode format (HHMMSS)
+
+Format Issues: Check available formats with yt-dlp -F [URL]
