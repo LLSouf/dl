@@ -22,7 +22,7 @@ ydl ()		{
 		name="$name1 $name2"
 
 		notify-send --urgency low "Downloading" "$name" -i "$icon"
-		if yt-dlp --cookies-from-browser chrome $format -o "~/Downloads/ydl/$name" "$url"
+		if yt-dlp --cookies-from-browser chrome $format -o "~/Downloads/$name" "$url"
 		then notify-send --urgency normal   "Done" "$name" -i "$icon"
 		else notify-send --urgency critical "Fail" "$name" -i "$icon"
 		fi
@@ -37,7 +37,7 @@ ydlcut () 	{
 		name="$name1 $name2"
 		
 		notify-send --urgency low "Downloading" "$name" -i "$icon"
-		if yt-dlp --cookies-from-browser chrome --external-downloader ffmpeg --external-downloader-args "-ss $start -to $end" $format -o "~/Downloads/ydl/$name" "$url"
+		if yt-dlp --cookies-from-browser chrome --external-downloader ffmpeg --external-downloader-args "-ss $start -to $end" $format -o "~/Downloads/$name" "$url"
 		then notify-send --urgency normal   "Done" "$name" -i "$icon"
 		else notify-send --urgency critical "Fail" "$name" -i "$icon" 
 		fi
