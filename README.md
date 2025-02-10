@@ -8,7 +8,7 @@ A Bash script with YAD GUI for downloading YouTube videos/audio with format sele
   - Best Video/MP4/720p/480p/Best Audio/M4A
   - Custom format selection
   - Video clipping with timecodes
-- 📁 Automatic organization in `~/Downloads/ydl/`
+- 📁 Automatic organization in `~/Downloads/`
 - 🔐 Chrome cookie integration
 - 📊 Progress notifications with `notify-send`
 - 📝 Smart filename truncation
